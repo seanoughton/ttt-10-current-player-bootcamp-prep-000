@@ -9,7 +9,11 @@ def turn_count(board)
 end
 
 def current_player(game_board)
-  
+  if (turn_count(board) % 2 == 0)
+    #something
+  else 
+    #something else
+  end
   
   
 end
