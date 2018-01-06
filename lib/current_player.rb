@@ -1,4 +1,6 @@
 def turn_count(board)
-  each
+  board.each do|something|
+  
+  end
   return #number of turns
 end
