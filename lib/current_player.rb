@@ -10,10 +10,8 @@ end
 
 def current_player(game_board)
   if (turn_count(board) % 2 == 0)
-    #something
+    return "X"
   else 
-    #something else
+    return "O"
   end
-  
-  
 end
